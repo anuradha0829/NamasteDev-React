@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
+    <link rel="stylesheet" href="App.css"/>
 </head>
 <body>
-    <div>
+    <!-- <div>
         <h1>Hello React from HTML</h1>
-    </div>
+    </div> -->
    <div id="root"></div>
    <div id="child"></div>
 </body>
-<script>
+<!-- <script>
     const root = document.getElementById("root")
     root.innerText = "namste React from javascript";
     const create = document.createElement("p");
     create.innerText = "namste React from  create javascript";
     root.appendChild(create)
-</script>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+</script> -->
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
     const heading = React.createElement("h1", {},  "hello");
     const child = ReactDOM.createRoot(document.getElementById("child"));
-    root.render(child)
-</script>
+    child.render(heading)
+</script> -->
+<script type="module" src="App.js"></script>
 </html>

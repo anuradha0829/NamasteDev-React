@@ -1,0 +1,19 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 64px;
+    height: 36px;
+}
+
+.input-text{
+    width: 500px;
+    height: 36px;
+}
+
+.user-icon{
+    width: 50px;
+    height: 36px;
+}
