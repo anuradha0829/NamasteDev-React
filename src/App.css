@@ -17,3 +17,16 @@
     width: 50px;
     height: 36px;
 }
+
+.card{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+}
+
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
